@@ -1,0 +1,339 @@
+    1  sudo su
+    2  ls
+    3  cd anydesk-4.0.0/
+    4  ls -l
+    5  ./anydesk 
+    6  cd ../
+    7  ls
+    8  cd Downloads/
+    9  ls
+   10  chmod +x anydesk_5.5.5-1_amd64.deb 
+   11  ls -l 
+   12  dpkg -i anydesk_5.5.5-1_amd64.deb 
+   13  sudo dpkg -i anydesk_5.5.5-1_amd64.deb 
+   14  ls
+   15  cd ../
+   16  ls
+   17  cd Desktop/
+   18  ls
+   19  cd ../
+   20  cd Downloads/
+   21  ls
+   22  cd ../
+   23  ls
+   24  cd Downloads/
+   25  ls
+   26  cd ../
+   27  ls
+   28  cd anydesk-4.0.0/
+   29  ls
+   30  ./anydesk 
+   31  sudo apt-cache search libgtkglext-x11-1.0.
+   32  sudo apt-cache search libgtkglext
+   33  apt install libgtkglext1 libgtkglextmm-x11-1.2-0v5
+   34  sudo apt install libgtkglext1 libgtkglextmm-x11-1.2-0v5
+   35  ./anydesk 
+   36  cd ../
+   37  cd Downloads/
+   38  ls
+   39  dpkg -i anydesk_5.5.5-1_amd64.deb 
+   40  sudo dpkg -i anydesk_5.5.5-1_amd64.deb 
+   41  ping www.google.com
+   42  killall ri-li
+   43  ps aux
+   44  kill -9 9392
+   45  sudo su
+   46  sudo sudo apt install wine-stable winetricks
+   47  winetricks mspatcha
+   48  apt-get
+   49  sudo su
+   50  sudo apt-cache search *-themes-extra gnome-themes-extra:i386
+   51  sudo apt-cache search *-themes-extra gnome-themes-extra
+   52  sudo apt-cache search *-themes-extra
+   53  sudo apt-cache search -themes-extra
+   54  sudo apt-cache search themes-extra
+   55  sudo apt-get install gnome-themes-extra gnome-themes-extra:i386
+   56  sudo apt-get install gnome-themes-extra gnome-themes-extra
+   57  sudo apt-get install gnome-themes-extra gnome-themes-extra-data
+   58  sudo apt-get install gtk2-engines-pixbuf
+   59  ls
+   60  apt-get install ssh
+   61  sudo apt-get install ssh
+   62  /etc/init.d/ssh start
+   63  cd vpn/cdav/
+   64  sudo apt-get install openvpn
+   65  ls
+   66  sudo openvpn cdav.ovpn 
+   67  $ sudo apt install gdebi-core libxml2:i386 libcanberra-gtk-module:i386 gtk2-engines-murrine:i386 libatk-adaptor:i386
+   68  sudo apt-get install $ sudo apt install gdebi-core libxml2:i386 libcanberra-gtk-module:i386 gtk2-engines-murrine:i386 libatk-adaptor:i386
+   69  sudo apt install gdebi-core libxml2:i386 libcanberra-gtk-module:i386 gtk2-engines-murrine:i386 libatk-adaptor:i386
+   70  $ wget ftp://ftp.adobe.com/pub/adobe/reader/unix/9.x/9.5.5/enu/AdbeRdr9.5.5-1_i386linux_enu.deb
+   71  sudo gdebi AdbeRdr9.5.5-1_i386linux_enu.deb
+   72  acroread
+   73  PING 8.8.8.8
+   74  ping 8.8.8.8
+   75  sudo su
+   76  ping www.google.com
+   77  apt install software-properties-common
+   78  sudo apt install software-properties-common
+   79  apt install software-properties-common
+   80  sudo apt install software-properties-common
+   81  sudo cat /etc/release*
+   82  sudo cat /etc/*release
+   83  clear
+   84  sudo apt-get update
+   85  ping 8.8.8.8
+   86  sudo apt-get update
+   87  clear
+   88  sudo apt-cache search docker
+   89  sudo apt-get install docker.io
+   90  docker -version
+   91  docker version
+   92  docker ps
+   93  sudo docker ps
+   94  sudo docker images
+   95  docker pull hello-world
+   96  sudo docker pull hello-world
+   97  sudo docker images
+   98  sudo docker ps
+   99  docker run hello-world
+  100  sudo docker run hello-world
+  101  clear
+  102  sudo docker ps
+  103  sudo docker images
+  104  sudo docker rmi hello-world
+  105  sudo docker rmi -f hello-world
+  106  sudo docker images
+  107  ls -l 
+  108  dockerfile
+  109  sudo docker images
+  110  docker pull nginx
+  111  sudo docker pull nginx
+  112  sudo docker images
+  113  sudo docker run --name webservice1 -v /home/soporte2/Documents/web/Index1.html:/etc/nginx/nginx.conf:ro -d  -p8181:80 nginx
+  114  docker ps
+  115  sudo docker ps
+  116  docker ps
+  117  sudo docker ps
+  118  sudo docker run --name webservice1 -d -p 8181:80 nginx
+  119  sudo docker ps
+  120  sudo docker ps -a
+  121  docker --help
+  122  sudo docker ps -a
+  123  sudo docker --help
+  124  sudo docker stop webservice1
+  125  sudo docker ps -a
+  126  sudo docker stop --name webservice1
+  127  sudo docker webservice stop
+  128  sudo docker webservice1 stop
+  129  docker --help
+  130  sudo docker stop -f  webservice1 
+  131  sudo docker stop  webservice1 
+  132  sudo docker ps -a
+  133  sudo docker stop 5e803c30438f
+  134  sudo docker ps -a
+  135  sudo docker stop --name webservice1
+  136  sudo docker stop --help
+  137  sudo docker stop -t0 webservice
+  138  sudo docker stop -t0 webservice1
+  139  sudo docker ps -a
+  140  docker --help
+  141  sudo docker kill webservice1
+  142  sudo docker ps -a
+  143  sudo docker ps
+  144  docker --help
+  145  sudo docker rm webservice1
+  146  sudo docker ps -a
+  147  sudo docker rm bf756fb1ae65
+  148  sudo docker ps -a
+  149  sudo docker rm bf756fb1ae65
+  150  sudo docker rm c6930bfc6d43
+  151  sudo docker ps -a
+  152  sudo docker images
+  153  sudo docker rm webservice1
+  154  sudo docker ps
+  155  sudo docker ps -a
+  156  docker run --name webservice1 -d -p 8181:80 nginx
+  157  sudo docker ps -a
+  158  sudo docker run --name webservice1 -d -p 8181:80 nginx
+  159  sudo docker ps -a
+  160  sudo docker run --name webservice1 -d -p 8182:80 nginx
+  161  sudo docker run --name webservice2 -d -p 8182:80 nginx
+  162  sudo docker ps
+  163  sudo docker rm webservice1
+  164  sudo docker stop webservice1
+  165  sudo docker stop webservice2
+  166  sudo docker rm webservice1
+  167  sudo docker rm webservice2
+  168  sudo docker ps 
+  169  sudo docker ps -a
+  170  sudo docker run --name webservice1 -p8181:80 -v  Documents/web/Index1.html:/etc/nginx/nginx.conf:ro -d nginx
+  171  sudo docker run --name webservice1 -p8181:80 -v  /home/soporte2/Documents/web/Index1.html:/etc/nginx/nginx.conf:ro -d nginx
+  172  sudo docker ps
+  173  sudo docker ps -a
+  174  sudo docker start webservice1
+  175  sudo docker stop webservice1
+  176  sudo docker run --name webservice1 -p8181:80 -v  /home/soporte2/Documents/web/Index1.html:/usr/share/nginx/html:ro -d nginx
+  177  sudo container -a
+  178  sudo container ps -a
+  179  sudo docker + ps -a
+  180  sudo docker  ps -a
+  181  sudo docker rm wbeservice1
+  182  sudo docker rm webeservice1
+  183  sudo docker rm webservice1
+  184  sudo docker run --name webservice1 -p8181:80 -v  /home/soporte2/Documents/web/Index1.html:/usr/share/nginx/html:ro -d nginx
+  185  sudo docker stop webservice1
+  186  sudo docker rm webservice1
+  187  sudo docker run --name webservice1 -p8181:80 -v  /home/soporte2/Documents/web/Index1.html:/usr/share/nginx/html:ro -d nginx
+  188  sudo docker ps -a
+  189  sudo docker stop webservice1
+  190  sudo docker rm webservice1
+  191  sudo docker ps -a
+  192  sudo docker run --name webservice1 -p8181:80 -v  /home/soporte2/Documents/web:/usr/share/nginx/html:ro -d nginx
+  193  sudo docker start webservice1
+  194  sudo docker -a
+  195  sudo docker ps -a
+  196  sudo docker stop webservice1
+  197  sudo docker rm webservice1
+  198  sudo docker ps -a
+  199  sudo docker run --name webservice1 -p8181:80 -v  /home/soporte2/Documents/web/Index1.html:/usr/share/nginx/html:ro -d nginx
+  200  sudo docker run --name webservice2 -p8181:80 -v  /home/soporte2/Documents/web/Index1.html:/usr/share/nginx/html/index.html:ro -d nginx
+  201  sudo docker ps
+  202  sudo docker stop webservice1
+  203  sudo docker stop webservice2
+  204  sudo docker rm webservice1
+  205  sudo docker rm webservice2
+  206  sudo docker ps
+  207  sudo docker ps -a
+  208  sudo docker ps 
+  209  sudo docker run --name webservice2 -p8181:80 -v  /home/soporte2/Documents/web/Index1.html:/usr/share/nginx/html/index.html:ro -d nginx
+  210  sudo docker version
+  211  apt-get update
+  212  sudo apt-get update
+  213  sudo apt-get install docker.io
+  214  sudo docker --help
+  215  docker images
+  216  sudo docker images
+  217  sudo docker run hello-world
+  218  sudo docker images
+  219  sudo docker run hello-world
+  220  sudo docker images
+  221  sudo docker ps
+  222  sudo docker run -p 8180:80 --name webservice1 nginx
+  223  sudo docker ps -a
+  224  sudo docker stop werservice1
+  225  sudo docker rm webservice1
+  226  sudo docker ps -a
+  227  sudo docker run --name webservice1  -d  -p8181:80 nginx
+  228  ps -a
+  229  sudo docker ps -a
+  230  sudo docker rm webservice1
+  231  sudo docker ps -a
+  232  sudo docker run --name webservice1  -d  -p8180:80 nginx
+  233  sudo docker ps 
+  234  sudo docker stop hello-world
+  235  sudo docker stop webservice1
+  236  sudo docker stop webservice2
+  237  sudo docker ps -a
+  238  sudo docker rm hello-world
+  239  sudo docker rmi hello-world
+  240  sudo docker rmi -f hello-world
+  241  sudo docker images
+  242  sudo docker pull laravel
+  243  sudo apt-get install git -y
+  244  sudo docker images}
+  245  sudo docker images
+  246  sudo docker pull bitnami/laravel
+  247  sudo docker images
+  248  docker run --name tienda1 -p8282:80 bitnami/laravel -d
+  249  sudo docker run --name tienda1 -p8282:80 bitnami/laravel -d
+  250  sudo docker ps
+  251  sudo docker run --name webservice1  -d  -p8180:80 bitnami/laravel
+  252  sudo docker run --name tienda1  -d  -p8180:80 bitnami/laravel
+  253  sudo docker rm tienda1
+  254  sudo docker run --name tienda1  -d  -p8180:80 bitnami/laravel
+  255  sudo docker ps
+  256  sudo docker run --name tienda2  -d  -p8282:80 bitnami/laravel
+  257  sudo docker start tienda2
+  258  ls
+  259  vi /etc/docker/key.json 
+  260  sudo vi /etc/docker/key.json 
+  261  ls
+  262  ls Documents/
+  263  sudo docker images
+  264  sudo docker ps
+  265  sudo docker ps -a
+  266  sudo docker rm webservice2
+  267  sudo docker rm webservice1
+  268  sudo docker rm tienda1
+  269  sudo docker rm tienda2
+  270  sudo docker ps -a
+  271  sudo docker rm hello
+  272  sudo docker rm /hello
+  273  sudo docker rm hello-world
+  274  sudo docker pull laravel
+  275  sudo docker ps
+  276  sudo docker run  -d  -p8282:80 bitnami/laravel
+  277  sudo docker ps
+  278  nano ~/laravel-app/docker-compose.yml
+  279  vi ~/laravel-app/docker-compose.yml
+  280  git clone https://github.com/brreinac/Integracion-Tienda.git tiendapp
+  281  ls
+  282  cd tiendapp/
+  283  ls -l
+  284  ls
+  285  docker run --rm -v $(pwd):/app composer install
+  286  sudo docker run --rm -v $(pwd):/app composer install
+  287  sudo chown -R $USER:$USER ~/tiendapp
+  288  cd ../
+  289  vi ~/tiendapp/docker-compose.yml
+  290  vi ~/tiendapp/Dockerfile
+  291  mkdir ~/tiendapp/php
+  292  vi ~/tiendapp/php/local.ini
+  293  mkdir -p ~/tiendapp/nginx/conf.d
+  294  vi ~/tiendapp/nginx/conf.d/app.conf
+  295  ls
+  296  cd tiendapp/
+  297  ls
+  298  cp .env.example .env
+  299  vi .env
+  300  sudo docker ps
+  301  docker-compose up -d
+  302  sudo docker ps
+  303  sudo apt  install docker-compose
+  304  docker-compose up -d
+  305  mkdir -p ~/laravel-app/nginx/conf.d
+  306  rm -r ~/laravel-app
+  307  mkdir images1
+  308  apt-cache search git 
+  309  apt-cache search git |gui
+  310  apt-cache search git |grep gui
+  311  apt-get install git-gui
+  312  sudo apt-get install git-gui
+  313  docker-compose up -d
+  314  sudo docker ps 
+  315  sudo docker ps -a
+  316  vi ~/tiendapp/docker-compose.yml 
+  317  sudo docker ps -a
+  318  sudo docker ps
+  319  sudo docker ps -a
+  320  git-gui
+  321* 
+  322  git remote add https://github.com/brreinac/Integracion-Tienda.git
+  323  git remote add --master https://github.com/brreinac/Integracion-Tienda.git
+  324  git remote add -m master https://github.com/brreinac/Integracion-Tienda.git
+  325  git remote add origin https://github.com/brreinac/Integracion-Tienda.git
+  326  git status
+  327  git add *
+  328  git add * -f
+  329  git reset --hard
+  330  git add *
+  331  git commit -m "Se realiza container docker"
+  332  git config --global user.email "rodribedo@gmail.com"
+  333  git config --global user.name "Hernan Rodrigo"
+  334  git commit -m "Se realiza container docker"
+  335  git push origin 
+  336  cat history |comandos.txt
+  337  cat history >> comandos.txt
+  338  cat history > comandos.txt
+  339  history > comandos.txt
