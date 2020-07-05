@@ -7,7 +7,7 @@
  * @author   Taylor Otwell <taylor@laravel.com>
  */
 /**
- * Trabajo Colaborativo de Integracion Continua
+ * Trabajo Colaborativo de Integracion Continua.
  */
 
 define('LARAVEL_START', microtime(true));
