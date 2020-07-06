@@ -1,0 +1,11 @@
+.logo{
+    width:150px;
+    height:150px;
+    margin: 0px auto;
+    display: table;
+    opacity:1 !important;
+}
+
+.badge-success {
+    background-color: red !important;
+}
