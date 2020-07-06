@@ -16,8 +16,17 @@ class TiendaController extends Controller
      */
     public function index()
     {
+        return view('tienda::index');
+    }
+
+    /**
+     * Display a listing of the resource.
+     * @return Response
+     */
+    public function products()
+    {
         $model = products::paginate(15);
-        return view('tienda::index',compact("model"));
+        return view('tienda::products',compact("model"));
     }
 
     /**
