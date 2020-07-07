@@ -17,3 +17,4 @@ Route::prefix('tienda')->group(function()
     Route::get('/productos', 'TiendaController@products')->name("home.products");
 });
 
+
