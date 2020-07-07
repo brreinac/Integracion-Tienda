@@ -14,7 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 
+/*RUTAS*/
+Route::prefix('tienda')->group(function()
+{
+    Route::get('/', 'TiendaController@index')->name("home.tienda");
+    Route::get('/productos', 'TiendaController@products')->name("home.products");
+});
 
+
+
+
+
+/*
 Route::get('/', function () {
     return redirect(\route("home"));
 });
@@ -22,3 +33,4 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+i*/
