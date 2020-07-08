@@ -1,12 +1,9 @@
-<?php
-
-namespace Modules\Tienda\Http\Controllers;
+<?php namespace Modules\Tienda\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
 use Modules\Tienda\Entities\products;
-use function GuzzleHttp\Promise\all;
 
 class TiendaController extends Controller
 {

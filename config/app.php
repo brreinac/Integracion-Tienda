@@ -156,6 +156,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         JeroenNoten\LaravelAdminLte\AdminLteServiceProvider::class,
+        Nwidart\Modules\LaravelModulesServiceProvider::class,
     ],
 
     /*
@@ -200,7 +201,8 @@ return [
         'Storage'   => Illuminate\Support\Facades\Storage::class,
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
-        'View'      => Illuminate\Support\Facades\View::class
+        'View'      => Illuminate\Support\Facades\View::class,
+        'Module' => Nwidart\Modules\Facades\Module::class,
     ],
 
 ];

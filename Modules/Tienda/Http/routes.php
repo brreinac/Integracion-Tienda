@@ -11,6 +11,9 @@
 |
 */
 
-Route::prefix('tienda')->group(function() {
-    Route::get('/', 'TiendaController@index');
+/*RUTAS*/
+Route::prefix('tienda')->group(function()
+{
+    Route::get('/', 'TiendaController@index')->name("home.tienda");
+    Route::get('/productos', 'TiendaController@products')->name("home.products");
 });

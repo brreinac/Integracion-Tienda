@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Factory;
 
 class TiendaServiceProvider extends ServiceProvider
 {
+
     /**
      * @var string $moduleName
      */

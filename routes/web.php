@@ -13,24 +13,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/*RUTAS*/
+Auth::routes();
 
 /*RUTAS*/
+Route::get('/home', 'HomeController@index')->name('home');
+
 Route::prefix('tienda')->group(function()
 {
-    Route::get('/', 'TiendaController@index')->name("home.tienda");
-    Route::get('/productos', 'TiendaController@products')->name("home.products");
+    Route::get('/', '\Modules\Tienda\Http\Controllers\TiendaController@index')->name("productIndex");
+
+    Route::get('/productos', '\Modules\Tienda\Http\Controllers\TiendaController@products')->name("productsHome");
 });
 
 
-
-
-
-/*
-Route::get('/', function () {
+Route::get('/', function ()
+{
     return redirect(\route("home"));
 });
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-i*/
